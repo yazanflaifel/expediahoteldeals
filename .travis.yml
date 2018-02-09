@@ -1,0 +1,8 @@
+language: java
+
+deploy:
+  provider: heroku
+  api_key: 3cbb3bb8-edcf-4988-b8f2-71400ae854b8
+  app: hoteldeals
+on:
+  all_branches: true

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hotel Deals</title>
+<script src="scripts/jquery-3.2.1.min.js"></script>
+<script src="scripts/deals.js"></script>
+<script src="scripts/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="scripts/css/bootstrap-theme.min.css" />
+<link rel="stylesheet" href="scripts/css/bootstrap.min.css" />
+</head>
+<body>
+	<h1>Hotel Deals</h1>
+	<div id="wrapper">
+		<div id="page-wrapper">
+			<div class="row col-lg-6">
+				<div class="panel-body">
+					<div class="form-group">
+						<label for="destinationName">Destination Name:</label>
+						<input type="text" class="form-control" id="destinationName">
+					</div>
+					<div class="form-group">
+						<label for="destinationCity">Destination City:</label>
+						<input type="text" class="form-control" id="destinationCity">
+					</div>
+					<div class="form-group">
+						<label for="regionIds">Region IDs:</label>
+						<input type="text" class="form-control" id="regionIds">
+					</div>
+					<div class="form-group">
+						<label for="minTripStartDate">Min Trip Start Date:</label>
+						<input type="date" class="form-control" id="minTripStartDate">
+					</div>
+					<div class="form-group">
+						<label for="minTripStartDate">Max Trip Start Date:</label>
+						<input type="date" class="form-control" id="maxTripStartDate">
+					</div>
+					<div class="form-group">
+						<label for="lengthOfStay">Length of Stay:</label>
+						<input type="number" class="form-control" id="lengthOfStay">
+					</div>
+					<div class="form-group">
+						<label for="minStarRating">Min Star Rating:</label>
+						<input type="number" class="form-control" min="0" max="5" id="minStarRating">
+					</div>
+					<div class="form-group">
+						<label for="maxStarRating">Max Star Rating:</label>
+						<input type="number" class="form-control" min="0" max="5" id="maxStarRating">
+					</div>
+					<div class="form-group">
+						<label for="minTotalRate">Min Total Rate:</label>
+						<input type="number" class="form-control" id="minTotalRate">
+					</div>
+
+					<div class="form-group">
+						<label for="maxTotalRate">Max Total Rate:</label>
+						<input type="number" class="form-control" id="maxTotalRate">
+					</div>
+
+					<div class="form-group">
+						<label for="minGuestRating">Min Guest Rating:</label>
+						<input type="number" class="form-control" min="0" max="5" id="minGuestRating">
+					</div>
+
+					<div class="form-group">
+						<label for="maxGuestRating">Max Guest Rating:</label>
+						<input type="number" class="form-control" min="0" max="5" id="maxGuestRating">
+					</div>
+
+					<button type="button" class="btn btn-default" onclick="renderDeals();">Submit</button>
+				</div>
+				<h4>Deals</h4>
+				<div class="row" id="data_container"></div>
+				<div id="error_container"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
