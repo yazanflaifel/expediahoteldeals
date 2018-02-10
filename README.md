@@ -15,4 +15,4 @@ Simple site hosted on hosted on Heroku to consume JSON API that presents sonme h
     6- Type git clone, and then paste the URL you copied in Step 2.
     (git clone https://github.com/yazanflaifel/expediahoteldeals.git)
     7-run maven command to build the project (mvn install)
-    8- Navigate to the generated archived file and run command java -jar to start the application
+    8- Navigate to the generated archived file and run command (java -jar hoteldeals-0.0.1-SNAPSHOT.war) to start the application
