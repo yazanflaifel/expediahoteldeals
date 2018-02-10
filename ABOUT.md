@@ -33,7 +33,7 @@ https://hotel-deals-yazan.herokuapp.com/deals.html
 - I have used spring boot for the first time it offers a fast way to build applications, it scans the classpath and looks for beans configured and makes reasonable assumptions about what is missing. Using spring boot I can focus more on business features and less on infrastructure.
 
 - Travis and HEROKO
-With Travis I can automatically deploy my application to HIROKU after successful build after running all the test cases just by adding Heroku API key to traves.yml file. 
+With Travis I can automatically deploy my application to HIROKU after successful build and after running all the test cases just by adding Heroku API key to traves.yml file and access my github represotory using. 
 
 ## Conclusion 
 
