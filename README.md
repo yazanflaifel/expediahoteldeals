@@ -1,5 +1,5 @@
 # Expedia Hotel Deals
-Simple site hosted on hosted on Heroku to consume JSON API that presents sonme hotel deals.
+Simple site hosted Heroku to consume JSON API that presents some hotel deals.
 
 ## Requiroments:
    1- Java 1.8 or more 
