@@ -1,6 +1,6 @@
 # Expedia Hotel Deals
 
-Simple application hosted on Heroku to consume a JASON API presents a bunch of hotel deals.
+Simple application hosted on Heroku to consume a JSON API presents a bunch of hotel deals.
 
 ### Heroku Link
 https://hotel-deals-yazan.herokuapp.com/deals.html
